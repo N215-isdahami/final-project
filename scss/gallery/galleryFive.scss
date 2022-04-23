@@ -1,0 +1,102 @@
+.gallery-five-hero {
+    max-width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    // background-color: red;
+    
+
+    .gallery-hero-img {
+        max-width: 980px;
+        height: 400px;
+        background-image: linear-gradient(rgba(59, 206, 171, 0.7),rgba(59, 206, 171, 0.7)),url(../images/5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 85px;
+        position: relative;
+
+        .img-text {
+            position: absolute;
+            bottom: -68px;
+            left: 0px;
+            // background-color: teal;
+
+            .num-text {
+                
+                font-size: 300px;
+                font-family: GillSans;
+                color: #3BCEAB;
+                text-shadow: 2px 2px 4px #000000;
+            }
+            .header-text {
+               margin-left: 50px;
+                font-size: 115px;
+                font-family: GillSans;
+                color: #3BCEAB;
+                text-shadow: 2px 2px 4px #000000;
+            }
+
+        }
+
+        
+
+        
+    }
+
+    .gallery-text-wrapper {
+        max-width: 980px;
+        height: 133px;
+        display: flex;
+        justify-content: space-between;
+        // background-color: red;  
+        
+        
+        .gallery-one-text {
+            max-width: 490px;
+            height: 135px;
+            margin-top: 52px;
+            margin-bottom: 90px;
+           // background-color: green;
+    
+            p {
+                font-family: GillSans;
+                font-size: 16px;
+            }
+        }
+
+        .gallery-two-text {
+            max-width: 450px;
+            height: 135px;
+            margin-top: 52px;
+            margin-bottom: 90px;
+           // background-color: red;
+    
+            p {
+                font-family: GillSans;
+                font-size: 16px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .gallery-five-hero {
+        margin-right: 20px;
+        margin-left: 20px;
+
+        .img-text {
+            // background-color: red;
+            
+            .num-text {
+                font-size: 20px;
+            }
+        }
+
+
+        .gallery-one-text {
+            // background-color: green;
+            margin-bottom: 50px;
+        }
+    }
+}

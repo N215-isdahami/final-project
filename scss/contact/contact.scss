@@ -1,0 +1,101 @@
+.contact-wrapper {
+    max-width: 980px;
+    height: 100%;
+    margin-top: 100px;
+    margin: 0 auto;
+  // background-color: red;
+   padding-top: 70px;
+   padding-bottom: 90px;
+   flex-direction: column;
+
+    .contact-head-text {
+        font-size: 25px;
+        font-family: GillSans;
+        border-bottom: 2px solid;
+    }
+
+    .contact-form {
+        width: 980px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+      //  background-color: aqua;
+    
+        .inputs-wrapper {
+          width: 530px;
+          height: 100%;
+          margin-top: 80px;
+    
+          .text-input {
+            input {
+              width: 530px;
+              height: 60px;
+              font-size: 16px;
+              font-family: GillSans;
+              background-color: #f5f5f5;
+              border: none;
+              margin-bottom: 21px;
+              padding-left: 20px;
+            }
+          }
+    
+          .message-input {
+            input {
+              width: 530px;
+              height: 199px;
+              font-size: 16px;
+              font-family: GillSans;
+              background-color: #f5f5f5;
+              border: none;
+              padding-left: 20px;
+              
+            }
+          }
+
+          .send-btn {
+            margin-top: 21px;
+            width: 167px;
+            height: 60px;
+            font-size: 16px;
+            font-family: GillSans;
+            color: white;
+            background-color: #ee4367;
+            text-align: center;
+            padding-top: 20px;
+          }
+        }
+
+
+        .contact-map {
+            width: 400px;
+            height: 442px;
+            background-image: url(../images/map.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-top: 80px;
+            
+        }
+    }
+
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-wrapper {
+      margin-left: 20px;
+      margin-right: 20px;
+      
+     // background-color: red;
+      .contact-form {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+      }
+    }
+  }
+
+
+
+

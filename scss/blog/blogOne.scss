@@ -1,0 +1,120 @@
+.blog-one-hero {
+    max-width: 980px;
+    height: 100%;
+    margin: 0 auto;
+   // background-color: red;
+
+    .blog-one-hero-img {
+        max-width: 980px;
+        height: 300px;
+        margin-top: 60px;
+        background-image: linear-gradient(
+          to right,
+          rgba(238, 67, 103, 0.6),
+          rgba(238, 67, 103, 0.6)
+        ),
+        url(../images/blog.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+        
+        .blog-one-date {
+            max-width: 155px;
+            height: 155px;
+            background-color: #ee4367;
+            color: white;
+            text-align: center;
+            padding-top: 22px;
+            position: relative;
+            top: 80px;
+            left: 400px;
+            
+
+        h1 {
+        font-size: 55px;
+        font-family: GillSans;
+        }
+
+        h2 {
+        font-size: 31px;
+        font-family: GillSans;
+      }
+    }
+  }
+
+  .blog-header-one {
+      max-width: 980px;
+      height: 100%;
+      margin: 0 auto;
+      margin-top: 60px;
+    // background-color: teal;
+
+      .head-text {
+          font-size: 20px;
+          font-family: Gill Sans;
+          color: #EE4367;
+      }
+
+      .blog-header-text {
+          max-width: 856px;
+        margin-top: 30px;
+        
+          .first-text {
+            font-size: 20px;
+            font-family: Gill Sans;
+          }
+          .second-text {
+            font-size: 20px;
+            font-family: Gill Sans;
+          }
+      }
+  }
+
+  .blog-header-two {
+    max-width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 160px;
+    // background-color: teal;
+
+    .head-text {
+        font-size: 20px;
+        font-family: Gill Sans;
+        color: #EE4367;
+    }
+
+    .blog-header-text {
+        max-width: 856px;
+      margin-top: 30px;
+        .first-text {
+          font-size: 20px;
+          font-family: Gill Sans;
+        }
+        .second-text {
+          font-size: 20px;
+          font-family: Gill Sans;
+        }
+    }
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .blog-one-hero {
+    margin-left: 20px;
+    margin-right: 20px;
+   // background-color: red;
+
+   .blog-one-hero-img {
+     .blog-one-date {
+       position: sticky;
+     }
+   }
+  }
+
+  .blog-header-one {
+    max-width: 100%;
+      height: 100%;
+      // background-color: teal;
+  }
+}
