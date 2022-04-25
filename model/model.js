@@ -45,8 +45,8 @@ var homeContent = `<div class="home-wrapper">
             </div>
         <div class="event-box-wrapper">
                 <div class="event-date">
-                    <h2>06</h2>
-                    <h3>JUN</h3>
+                    <h2>30</h2>
+                    <h3>JUL</h3>
                   </div>
                   <div class="event-description">
                     <h4>Sed et persipiatis unde omnis iste natus</h4>
@@ -58,8 +58,8 @@ var homeContent = `<div class="home-wrapper">
             </div>
         <div class="event-box-wrapper">
                 <div class="event-date">
-                    <h2>06</h2>
-                    <h3>JUN</h3>
+                    <h2>30</h2>
+                    <h3>AUG</h3>
                   </div>
                   <div class="event-description">
                     <h4>Sed et persipiatis unde omnis iste natus</h4>
@@ -71,8 +71,8 @@ var homeContent = `<div class="home-wrapper">
             </div>
         <div class="event-box-wrapper">
                 <div class="event-date">
-                    <h2>06</h2>
-                    <h3>JUN</h3>
+                    <h2>23</h2>
+                    <h3>NOV</h3>
                   </div>
                   <div class="event-description">
                     <h4>Sed et persipiatis unde omnis iste natus</h4>
@@ -84,8 +84,8 @@ var homeContent = `<div class="home-wrapper">
             </div>
         <div class="event-box-wrapper">
                 <div class="event-date">
-                    <h2>06</h2>
-                    <h3>JUN</h3>
+                    <h2>23</h2>
+                    <h3>DEC</h3>
                   </div>
                   <div class="event-description">
                     <h4>Sed et persipiatis unde omnis iste natus</h4>
