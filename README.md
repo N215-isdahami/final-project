@@ -10,4 +10,4 @@ Look just like this prototype: https://xd.adobe.com/view/bd8644ee-7aab-46ee-b82f
 Must include all the pages.
 Must use jQuery or pure JavaScript
 
-link: https://in-info-web4.informatics.iupui.edu/~isdahami/final-project/index.html
+link: https://in-info-web4.informatics.iupui.edu/~isdahami/N215/final-project/index.html
